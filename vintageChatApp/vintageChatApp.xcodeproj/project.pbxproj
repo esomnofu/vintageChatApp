@@ -24,6 +24,7 @@
 		84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949168247696500007FD9A /* ChatTableViewCell.swift */; };
 		8494916B247698060007FD9A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494916A247698060007FD9A /* UIColor.swift */; };
 		8494916D24769D920007FD9A /* PtaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494916C24769D920007FD9A /* PtaTableViewCell.swift */; };
+		8494916F2476A32C0007FD9A /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494916E2476A32C0007FD9A /* NSAttributedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		84949168247696500007FD9A /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		8494916A247698060007FD9A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8494916C24769D920007FD9A /* PtaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PtaTableViewCell.swift; sourceTree = "<group>"; };
+		8494916E2476A32C0007FD9A /* NSAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				84949163247693900007FD9A /* UIAlertController.swift */,
 				84949165247693B30007FD9A /* UITextField.swift */,
 				8494916A247698060007FD9A /* UIColor.swift */,
+				8494916E2476A32C0007FD9A /* NSAttributedString.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				8494916B247698060007FD9A /* UIColor.swift in Sources */,
 				84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */,
 				84949160247692CC0007FD9A /* UIView.swift in Sources */,
+				8494916F2476A32C0007FD9A /* NSAttributedString.swift in Sources */,
 				8494912A24768DC60007FD9A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -68,9 +68,9 @@ class ViewController: UIViewController {
         //sort chat according to sender or receiver
         var chat : Chat?
         if isSender {
-            chat = Chat(message:message, isFromReceiver: isSender, name:SENDER_NAME, time:TIME)
-        }else{
             chat = Chat(message:message, isFromReceiver: isSender, name:RECEIVER_NAME, time:TIME)
+        }else{
+            chat = Chat(message:message, isFromReceiver: isSender, name:SENDER_NAME, time:TIME)
         }
         //add chat to datasource
         if let chatMessage = chat {
@@ -192,7 +192,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             switch currentSection {
                 case .pta:
                     let cell = tableView.dequeueReusableCell(withIdentifier: "identifier", for: indexPath) as! PtaTableViewCell
-                     cell.backgroundColor = .orange
+                     cell.backgroundColor = .white
                      cell.selectionStyle = .none
                      return cell
                 case .comment:

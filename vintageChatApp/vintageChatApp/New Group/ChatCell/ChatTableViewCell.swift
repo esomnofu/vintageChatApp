@@ -13,6 +13,7 @@ class ChatTableViewCell: UITableViewCell {
     //MARK: UILabels
     let messageLabel = UILabel()
     let bubbleBackgroundView = UIView()
+
     
     //MARK: Constraints
     var leadingConstraint : NSLayoutConstraint?
@@ -21,9 +22,19 @@ class ChatTableViewCell: UITableViewCell {
     //MARK: Chat Struct instance
     var chat : Chat!{
         didSet{
-            messageLabel.text = chat.message
+            //get chat values
+            let topString = chat.message
+            let bottomString = "\n\n\(chat.name) \(chat.time)"
+            
+            //style and assign chat
+            messageLabel.attributedText = NSAttributedString.doubleMessagesLabel(string1: topString, string2: bottomString)
+            messageLabel.font = UIFont.systemFont(ofSize: 13)
+            
+            //conditional bg color for bubble and message based on sender or receiver
             bubbleBackgroundView.backgroundColor = chat.isFromReceiver ? UIColor.receiverColor() : UIColor.senderColor()
             messageLabel.textColor = chat.isFromReceiver ? .white : .black
+            
+            //decide to float chat left or right pending sender or receiver
             if chat.isFromReceiver {
                 leadingConstraint?.isActive = false
                 trailingConstraint?.isActive = true
@@ -31,6 +42,7 @@ class ChatTableViewCell: UITableViewCell {
                 leadingConstraint?.isActive = true
                 trailingConstraint?.isActive = false
             }
+            
         }
     }
     
@@ -68,9 +80,11 @@ class ChatTableViewCell: UITableViewCell {
           ]
           NSLayoutConstraint.activate(constraints)
           
+          //enforce leading constraint
           leadingConstraint = messageLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 32)
           leadingConstraint?.isActive = false
         
+          //enforce trailing constraint
           trailingConstraint = messageLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -32)
           trailingConstraint?.isActive = true
     }
