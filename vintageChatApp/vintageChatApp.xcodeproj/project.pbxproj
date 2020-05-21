@@ -21,6 +21,7 @@
 		84949162247692DA0007FD9A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949161247692DA0007FD9A /* UIViewController.swift */; };
 		84949164247693900007FD9A /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949163247693900007FD9A /* UIAlertController.swift */; };
 		84949166247693B30007FD9A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949165247693B30007FD9A /* UITextField.swift */; };
+		84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949168247696500007FD9A /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		84949161247692DA0007FD9A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		84949163247693900007FD9A /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		84949165247693B30007FD9A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		84949168247696500007FD9A /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		8494915A24768FCE0007FD9A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				849491672476962F0007FD9A /* ChatCell */,
 				8494912B24768DC60007FD9A /* ViewController.swift */,
 			);
 			name = UI;
@@ -169,6 +172,14 @@
 				84949165247693B30007FD9A /* UITextField.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		849491672476962F0007FD9A /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				84949168247696500007FD9A /* ChatTableViewCell.swift */,
+			);
+			path = ChatCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 				8494913224768DCA0007FD9A /* vintageChatApp.xcdatamodeld in Sources */,
 				84949164247693900007FD9A /* UIAlertController.swift in Sources */,
 				8494915E2476900A0007FD9A /* Chat.swift in Sources */,
+				84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */,
 				84949160247692CC0007FD9A /* UIView.swift in Sources */,
 				8494912A24768DC60007FD9A /* SceneDelegate.swift in Sources */,
 			);
