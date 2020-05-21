@@ -22,6 +22,7 @@
 		84949164247693900007FD9A /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949163247693900007FD9A /* UIAlertController.swift */; };
 		84949166247693B30007FD9A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949165247693B30007FD9A /* UITextField.swift */; };
 		84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949168247696500007FD9A /* ChatTableViewCell.swift */; };
+		8494916B247698060007FD9A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494916A247698060007FD9A /* UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		84949163247693900007FD9A /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		84949165247693B30007FD9A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		84949168247696500007FD9A /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		8494916A247698060007FD9A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				84949161247692DA0007FD9A /* UIViewController.swift */,
 				84949163247693900007FD9A /* UIAlertController.swift */,
 				84949165247693B30007FD9A /* UITextField.swift */,
+				8494916A247698060007FD9A /* UIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				8494913224768DCA0007FD9A /* vintageChatApp.xcdatamodeld in Sources */,
 				84949164247693900007FD9A /* UIAlertController.swift in Sources */,
 				8494915E2476900A0007FD9A /* Chat.swift in Sources */,
+				8494916B247698060007FD9A /* UIColor.swift in Sources */,
 				84949169247696500007FD9A /* ChatTableViewCell.swift in Sources */,
 				84949160247692CC0007FD9A /* UIView.swift in Sources */,
 				8494912A24768DC60007FD9A /* SceneDelegate.swift in Sources */,
