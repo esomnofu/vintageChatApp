@@ -17,6 +17,10 @@
 		8494914224768DFD0007FD9A /* vintageChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494914124768DFD0007FD9A /* vintageChatAppTests.swift */; };
 		8494914D24768DFD0007FD9A /* vintageChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494914C24768DFD0007FD9A /* vintageChatAppUITests.swift */; };
 		8494915E2476900A0007FD9A /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494915D2476900A0007FD9A /* Chat.swift */; };
+		84949160247692CC0007FD9A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494915F247692CC0007FD9A /* UIView.swift */; };
+		84949162247692DA0007FD9A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949161247692DA0007FD9A /* UIViewController.swift */; };
+		84949164247693900007FD9A /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949163247693900007FD9A /* UIAlertController.swift */; };
+		84949166247693B30007FD9A /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84949165247693B30007FD9A /* UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		8494914C24768DFD0007FD9A /* vintageChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vintageChatAppUITests.swift; sourceTree = "<group>"; };
 		8494914E24768DFD0007FD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8494915D2476900A0007FD9A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		8494915F247692CC0007FD9A /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		84949161247692DA0007FD9A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		84949163247693900007FD9A /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		84949165247693B30007FD9A /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +163,10 @@
 		8494915C24768FDB0007FD9A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8494915F247692CC0007FD9A /* UIView.swift */,
+				84949161247692DA0007FD9A /* UIViewController.swift */,
+				84949163247693900007FD9A /* UIAlertController.swift */,
+				84949165247693B30007FD9A /* UITextField.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -290,10 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84949162247692DA0007FD9A /* UIViewController.swift in Sources */,
 				8494912C24768DC60007FD9A /* ViewController.swift in Sources */,
+				84949166247693B30007FD9A /* UITextField.swift in Sources */,
 				8494912824768DC60007FD9A /* AppDelegate.swift in Sources */,
 				8494913224768DCA0007FD9A /* vintageChatApp.xcdatamodeld in Sources */,
+				84949164247693900007FD9A /* UIAlertController.swift in Sources */,
 				8494915E2476900A0007FD9A /* Chat.swift in Sources */,
+				84949160247692CC0007FD9A /* UIView.swift in Sources */,
 				8494912A24768DC60007FD9A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
