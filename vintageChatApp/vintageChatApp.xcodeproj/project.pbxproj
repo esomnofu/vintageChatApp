@@ -16,6 +16,7 @@
 		8494913724768DFA0007FD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8494913524768DFA0007FD9A /* LaunchScreen.storyboard */; };
 		8494914224768DFD0007FD9A /* vintageChatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494914124768DFD0007FD9A /* vintageChatAppTests.swift */; };
 		8494914D24768DFD0007FD9A /* vintageChatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494914C24768DFD0007FD9A /* vintageChatAppUITests.swift */; };
+		8494915E2476900A0007FD9A /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8494915D2476900A0007FD9A /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8494914824768DFD0007FD9A /* vintageChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vintageChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8494914C24768DFD0007FD9A /* vintageChatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vintageChatAppUITests.swift; sourceTree = "<group>"; };
 		8494914E24768DFD0007FD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8494915D2476900A0007FD9A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,11 @@
 		8494912624768DC60007FD9A /* vintageChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				8494915C24768FDB0007FD9A /* Extensions */,
+				8494915B24768FD50007FD9A /* Model */,
+				8494915A24768FCE0007FD9A /* UI */,
 				8494912724768DC60007FD9A /* AppDelegate.swift */,
 				8494912924768DC60007FD9A /* SceneDelegate.swift */,
-				8494912B24768DC60007FD9A /* ViewController.swift */,
 				8494912D24768DC80007FD9A /* Main.storyboard */,
 				8494913324768DFA0007FD9A /* Assets.xcassets */,
 				8494913524768DFA0007FD9A /* LaunchScreen.storyboard */,
@@ -129,6 +133,30 @@
 				8494914E24768DFD0007FD9A /* Info.plist */,
 			);
 			path = vintageChatAppUITests;
+			sourceTree = "<group>";
+		};
+		8494915A24768FCE0007FD9A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8494912B24768DC60007FD9A /* ViewController.swift */,
+			);
+			name = UI;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8494915B24768FD50007FD9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8494915D2476900A0007FD9A /* Chat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8494915C24768FDB0007FD9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +293,7 @@
 				8494912C24768DC60007FD9A /* ViewController.swift in Sources */,
 				8494912824768DC60007FD9A /* AppDelegate.swift in Sources */,
 				8494913224768DCA0007FD9A /* vintageChatApp.xcdatamodeld in Sources */,
+				8494915E2476900A0007FD9A /* Chat.swift in Sources */,
 				8494912A24768DC60007FD9A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
